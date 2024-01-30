@@ -36,3 +36,24 @@ $('#nav-toggle').click(function(){
     $(this).toggleClass('is-active')
     $('ul.nav').toggleClass('show');
 });
+
+var formFunctions = {
+    submitForm: function () {
+        // Optionally, you can perform any form data validation here before redirecting
+
+        // Open a new window with a message
+        var newWindow = window.open("", "_blank");
+        newWindow.document.write("<h1>Thanks for your time!</h1>");
+
+        // Optionally, you can redirect the user to another page
+        // window.location.href = "new_page.html";
+    },
+
+    hire: function () {
+        var newWindow = window.open("", "_blank");
+        newWindow.document.write("<h1>Thanks for Hiring! kindly mail me on Harisahmed1731@gmail.com<br></h1>");
+
+        // Optionally, you can redirect the user to another page
+        // window.location.href = "new_page.html";
+    }
+};
