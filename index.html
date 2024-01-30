@@ -147,7 +147,7 @@
                     <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
                 </div>
                 <div class="col-sm offset-sm-2 offset-md-3">
-                    <button class="btn btn-lg my-font btn-light rounded" onclick="hire();">Hire Me</button>
+                    <button class="btn btn-lg my-font btn-light rounded" onclick="formFunctions.hire();">Hire Me</button>
                 </div>
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -180,33 +180,11 @@
                         <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
                     </div>
                     <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded" onclick="submitForm();">                  
+                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded" onclick="formFunctions.submitForm();">                  
                     </div>
                 </div>  
             </form><!-- end of contact form -->
-		        <script>
-function submitForm() {
-    // Optionally, you can perform any form data validation here before redirecting
-
-    // Open a new window with a message
-    var newWindow = window.open("", "_blank");
-    newWindow.document.write("<h1>Thanks for your time!</h1>");
-
-    // Optionally, you can redirect the user to another page
-    // window.location.href = "new_page.html";
-}
-
-function hire() {
-
-
-    var newWindow = window.open("", "_blank");
-    newWindow.document.write("<h1>Thanks for Hiring! kindly mail me on - Harisahmed1731@gmail.com<br></h1>");
-
-    // Optionally, you can redirect the user to another page
-    // window.location.href = "new_page.html";
-
-}
-</script>
+	
         </div><!-- end of container -->
     </section><!-- end of contact section -->
 
