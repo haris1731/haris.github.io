@@ -12171,14 +12171,13 @@ pre .code {
 }
 
 .about-img-holder {
-  min-width: 100px;
-  max-width: 100px;
+  min-width: 150px;
+  max-width: 150px;
   margin-right: 20px;
 }
 
 .about-img-holder .about-img {
-  width: 150%;
-  height: 150%;
+  width: 130%;
   margin-bottom: 15px;
   
 }
@@ -12205,7 +12204,7 @@ pre .code {
     width: 100%;
     margin: auto;
     margin-bottom: 20px;
-    position: relative;
+    
   }
 }
 
