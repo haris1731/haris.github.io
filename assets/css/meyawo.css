@@ -12167,7 +12167,7 @@ pre .code {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: left;
+  text-align: right;
 }
 
 .about-img-holder {
@@ -12177,7 +12177,7 @@ pre .code {
 }
 
 .about-img-holder .about-img {
-  width: 110%;
+  width: 200%;
   margin-bottom: 15px;
   float: left;
   margin-right: 20px;
