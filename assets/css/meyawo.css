@@ -12167,7 +12167,7 @@ pre .code {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
+  
   
 }
 
@@ -12204,7 +12204,7 @@ pre .code {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-    text-align: center;
+    
   }
   .about-img-holder {
     max-width: 220px;
